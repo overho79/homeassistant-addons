@@ -6,7 +6,7 @@
   "boot": "auto",
   "description": "Silver Bullet (SB) is an extensible, open source personal knowledge platform",
   "environment": {
-    "SB_FOLDER": "/config/",
+    "SB_FOLDER": "/config",
     "PUID": "0",
     "PGID": "0"
   },
