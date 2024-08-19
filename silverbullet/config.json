@@ -15,12 +15,6 @@
   ],
   "version": "0.9.0",
   "name": "silverbullet",
-  "ports": {
-    "3000/tcp": "3000"
-  },
-  "ports_description": {
-    "3000/tcp": "Web interface"
-  },
   "options": {
     "SB_USER": ""
   },
@@ -31,7 +25,7 @@
   "startup": "services",
   "upstream": "0.9.0",
   "url": "https://github.com/jdeath/homeassistant-addons",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:3000]",
   "ingress": true,
-  "ingress_port": 3000
+  "ingress_port": 3000,
+  "ingress_entry": "https://3807daemon.duckdns.org/e0e50923_silverbullet/ingress"
 }
