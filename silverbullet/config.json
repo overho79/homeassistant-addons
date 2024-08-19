@@ -26,6 +26,5 @@
   "upstream": "0.9.0",
   "url": "https://github.com/jdeath/homeassistant-addons",
   "ingress": true,
-  "ingress_port": 3000,
-  "ingress_entry": "https://3807daemon.duckdns.org/e0e50923_silverbullet/ingress"
+  "ingress_port": 3000
 }
