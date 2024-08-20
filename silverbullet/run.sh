@@ -15,4 +15,4 @@ else
 	export SB_USER="${SB_USER}"
 fi
 
-/docker-entrypoint.sh
+/docker-entrypoint.sh -L 172.30.33.3
