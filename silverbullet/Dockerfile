@@ -1,7 +1,7 @@
 ARG BUILD_FROM
 FROM zefhemel/silverbullet
 
-RUN apt update && apt install -y jq
+RUN apt update && apt install -y jq  && mkdir -p /config/space
 
 COPY run.sh /
 RUN chmod a+x /run.sh
