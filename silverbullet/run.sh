@@ -15,4 +15,4 @@ else
 	export SB_USER="${SB_USER}"
 fi
 
-/docker-entrypoint.sh -L 172.30.33.3
+/docker-entrypoint.sh -L 172.30.33.3 --cert /ssl/fullchain.pem  --key /ssl/privkey.pem
