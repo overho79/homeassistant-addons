@@ -1,12 +1,11 @@
 {
   "arch": [
-    "amd64",
     "aarch64"
   ],
   "boot": "auto",
   "description": "Silver Bullet (SB) is an extensible, open source personal knowledge platform",
   "environment": {
-    "SB_FOLDER": "/space",
+    "SB_FOLDER": "/config/space",
     "PUID": "0",
     "PGID": "0"
   },
