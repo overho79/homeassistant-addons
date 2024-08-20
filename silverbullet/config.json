@@ -10,7 +10,7 @@
     "PGID": "0"
   },
   "map": [
-    "addon_config:rw"
+    "addon_config:rw", "ssl:rw"
   ],
   "version": "0.9.2",
   "name": "silverbullet",
