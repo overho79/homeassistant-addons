@@ -15,4 +15,4 @@ else
 	export SB_USER="${SB_USER}"
 fi
 
-/docker-entrypoint.sh -L e0e50923-silverbullet
+/docker-entrypoint.sh -L172.30.33.3
