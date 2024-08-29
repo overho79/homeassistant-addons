@@ -1,9 +1,0 @@
-{
-  "github_fulltag": "true",
-  "last_update": "26-07-2024",
-  "repository": "jdeath/homeassistant-addons",
-  "slug": "iclouddownloader",
-  "source": "pip",
-  "upstream_repo": "icloudpd",
-  "upstream_version": "1.23.0"
-}
